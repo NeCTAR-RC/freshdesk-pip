@@ -10,6 +10,13 @@ Provides authentication integration between Freshdesk and AAF. Authorization is 
 
 The application is written in SailsJS (NodeJS) backed by a MongoDB backend. It is stateless, i.e. it doesn't maintain HTTP sessions. The MongoDB is only required to validate JTI uniqueness as required by AAF. The application persists the JTI on each successful login.
 
+Tested with: 
+
+Node 0.12.7
+Sails 0.11.3
+Openstack (client) 1.6.0
+Nova (client) 2.26.0
+
 ## Configuration
 
 Freshdesk needs to be configured:
