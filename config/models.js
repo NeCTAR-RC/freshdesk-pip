@@ -29,6 +29,6 @@ module.exports.models = {
   ***************************************************************************/
   // migrate: 'alter'
 
-  connection: 'localMongodbServer',
+  connection: "localMongodbServer",
   migrate: "safe"
 };

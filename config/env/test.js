@@ -18,17 +18,13 @@ module.exports = {
       login_url: "",
     },
     freshdesk: {
-      url: "",
+      url: "http://test.freshdesk.url",
       key: "",
     }
   },
   connections: {
     localMongodbServer: {
-      adapter: "sails-mongo",
-      host: "",
-      user: "",
-      password: "",
-      database: ""
+      adapter: "sails-memory"
     }
   }
 };
