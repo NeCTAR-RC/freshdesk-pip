@@ -1,3 +1,4 @@
+"use strict";
 /**
  * Blueprint API Configuration
  * (sails.config.blueprints)
@@ -97,7 +98,7 @@ module.exports.blueprints = {
   *                                                                          *
   ***************************************************************************/
 
-  prefix: '/pip',
+  prefix: "/pip",
 
   /***************************************************************************
    *                                                                          *

@@ -38,3 +38,7 @@ Service name: freshdesk-pip
 Configuration: /opt/freshdesk-pip/config/env/*environment*.js
 Log file: /var/log/freshdesk/pip.log
 Logrotate config: /etc/logrotate.d/freshdesk
+
+## Linting and Testing
+
+To set up and execute the test suite: `npm install && npm test`. You may drop the `npm install` command to just execute the test.
