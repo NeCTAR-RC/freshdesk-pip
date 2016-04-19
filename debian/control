@@ -1,0 +1,12 @@
+Source: freshdesk-pip
+Maintainer: Andrew Spiers <andrew@andrewspiers.net>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: freshdesk-pip
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, nodejs, nodejs-legacy
+Description: freshdesk Freshdesk Authentication proxy for AAF.
+ Provides authentication integration between Freshdesk and AAF. Authorization happens at Freshdesk.
