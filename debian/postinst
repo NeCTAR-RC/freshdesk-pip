@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+set -e
+
+adduser --system freshdesk
+chown freshdesk opt/nectar/freshdesk-pip/.tmp
+chown freshdesk opt/nectar/freshdesk-pip/views/layout.ejs

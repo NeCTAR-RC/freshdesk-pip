@@ -1,0 +1,16 @@
+[Unit]
+Description=Freshdesk-pip Server
+
+[Service]
+ExecStart=/usr/bin/nodejs /opt/nectar/freshdesk-pip/app.js
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=freshdesk-pip
+User=freshdesk
+Environment=NODE_ENV=production
+WorkingDirectory=/opt/nectar/freshdesk-pip
+
+[Install]
+WantedBy=multi-user.target

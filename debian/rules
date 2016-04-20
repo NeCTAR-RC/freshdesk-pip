@@ -1,3 +1,10 @@
 #!/usr/bin/make -f
+# -*- makefile -*-
+
+override_dh_auto_build:
+	npm --cache /tmp/npmcache install
+	dh_auto_build
+
+export DH_VERBOSE=1
 %:
 	dh $@

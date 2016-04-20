@@ -1,0 +1,2 @@
+app.js api assets config .eslintrc Gruntfile.js node_modules package.json README.md .sailsrc tasks test views opt/nectar/freshdesk-pip
+debian/freshdesk-pip.service /lib/systemd/system/

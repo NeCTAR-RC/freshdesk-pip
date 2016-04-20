@@ -1,0 +1,3 @@
+npm needs to use the network, so set
+   USENETWORK=yes
+in /etc/pbuilderrc
