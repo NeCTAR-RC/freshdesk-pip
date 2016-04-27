@@ -14,7 +14,7 @@ module.exports = {
     var name = payload["https://aaf.edu.au/attributes"].cn;
     var ts = new Date().getTime() / 1000;
     // Taken from: https://support.freshdesk.com/support/solutions/articles/31166-single-sign-on-remote-authentication-in-freshdesk
-    var hashSource = name + email + ts;
+    var hashSource = name + sails.config.auth.freshdesk.key + email + ts;
     var crypto = require("crypto");
     var hmac = crypto.createHmac("md5", sails.config.auth.freshdesk.key);
     var hash = hmac.update(hashSource).digest("hex");
