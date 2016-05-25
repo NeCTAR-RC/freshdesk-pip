@@ -3,6 +3,7 @@
 
 override_dh_auto_build:
 	npm --cache /tmp/npmcache install
+	bash debian/install-sails-aaf-rapid-connect.sh
 	dh_auto_build
 
 export DH_VERBOSE=1
