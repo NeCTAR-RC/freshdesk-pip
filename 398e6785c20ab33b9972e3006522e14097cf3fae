@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bad4c104_f57949fd",
+        "filename": "debian/rules",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000077
+      },
+      "writtenOn": "2016-05-26T01:35:12Z",
+      "side": 1,
+      "message": "not just install.sh?",
+      "range": {
+        "startLine": 5,
+        "startChar": 13,
+        "endLine": 5,
+        "endChar": 28
+      },
+      "revId": "398e6785c20ab33b9972e3006522e14097cf3fae",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
