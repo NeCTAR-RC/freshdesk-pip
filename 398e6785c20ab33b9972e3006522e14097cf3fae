@@ -22,6 +22,30 @@
       "revId": "398e6785c20ab33b9972e3006522e14097cf3fae",
       "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_18950433",
+        "filename": "debian/rules",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-05-26T08:21:00Z",
+      "side": 1,
+      "message": "Yeah a more descriptive name would be good",
+      "parentUuid": "bad4c104_f57949fd",
+      "range": {
+        "startLine": 5,
+        "startChar": 13,
+        "endLine": 5,
+        "endChar": 28
+      },
+      "revId": "398e6785c20ab33b9972e3006522e14097cf3fae",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
     }
   ]
 }
