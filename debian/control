@@ -7,6 +7,6 @@ Build-Depends: debhelper (>= 9), npm, nodejs-legacy, build-essential, ca-certifi
 
 Package: freshdesk-pip
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, nodejs, nodejs-legacy, node-forever-agent
+Depends: ${shlibs:Depends}, ${misc:Depends}, nodejs, nodejs-legacy
 Description: freshdesk Freshdesk Authentication proxy for AAF.
  Provides authentication integration between Freshdesk and AAF. Authorization happens at Freshdesk.
