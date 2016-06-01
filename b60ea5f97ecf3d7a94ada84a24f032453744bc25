@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bad4c104_ae76923c",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-06-01T04:56:06Z",
+      "side": 0,
+      "message": "can go too",
+      "range": {
+        "startLine": 10,
+        "startChar": 8,
+        "endLine": 10,
+        "endChar": 27
+      },
+      "revId": "b60ea5f97ecf3d7a94ada84a24f032453744bc25",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
